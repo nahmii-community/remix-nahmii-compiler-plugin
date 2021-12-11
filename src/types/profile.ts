@@ -1,4 +1,4 @@
-import { NahmiiCompilerApi } from "./optimism-compiler"
+import { NahmiiCompilerApi } from "./nahmii-compiler"
 import { LibraryProfile } from "@remixproject/plugin-utils"
 
 export const compilerProfile: LibraryProfile<NahmiiCompilerApi> = {
