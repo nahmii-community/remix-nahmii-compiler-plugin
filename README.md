@@ -57,3 +57,11 @@ To deploy this project to surge, execute the following command:
 yarn deploy
 ```
 
+## Contributing
+
+To contribute, clone this repository and create a new feature branch.
+Once the new feature is implemented, create a new pull request with a description of the added changes.
+
+## Issues
+
+Feel free to open a feature request or report a bug through the issues page!
