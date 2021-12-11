@@ -1,5 +1,5 @@
 defaults: &defaults
-  working_directory: ~/remix-optimism-compiler
+  working_directory: ~/remix-nahmii-compiler
   docker:
     - image: circleci/node:12.16
 
