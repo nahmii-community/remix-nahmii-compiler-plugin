@@ -1,7 +1,7 @@
 {
-  "name": "remix-optimism-compiler",
+  "name": "remix-nahmii-compiler",
   "version": "0.1.0",
-  "description": "Remix Optimism compiler",
+  "description": "Remix Nahmii compiler",
   "author": "MachinaLabs",
   "dependencies": {
     "@eth-optimism/solc": "^0.7.6-alpha.1",
@@ -35,7 +35,7 @@
     "tslint:fix": "tslint --fix -p . -c tslint.json",
     "check-formatting": "prettier --write --list-different './src/**/*.tsx'",
     "prettier": "prettier --write \"src/**/*.{ts,,tsx,js,json}\"",
-    "deploy": "yarn build && surge --project ./build --domain machinalabs-remix-optimism-compiler-plugin.surge.sh"
+    "deploy": "yarn build && surge --project ./build --domain machinalabs-remix-nahmii-compiler-plugin.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
