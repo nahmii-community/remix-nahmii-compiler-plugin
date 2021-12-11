@@ -22,7 +22,7 @@ const RemixContext = React.createContext<IRemixProvider>({
 })
 /* tslint:enable */
 
-const PLUGIN_NAME = "Remix Optimism Compiler "
+const PLUGIN_NAME = "Remix Nahmii Compiler "
 
 export const RemixProvider: React.FC<PropsWithChildren<{}>> = ({
   children,
