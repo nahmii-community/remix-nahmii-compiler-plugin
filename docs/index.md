@@ -10,6 +10,35 @@ In the Remix plugin manager activate Nahmii Compiler.
 
 Now you should be able to compile Nahmii compatible smart contracts.
 
+### Local plugin
+
+In case the plugin does not show up in Remix or you're looking to run a local instance of the plugin, clone the [remix-nahmii-compiler-plugin](https://github.com/nahmii-community/remix-nahmii-compiler-plugin).
+
+First clone this repository and install dependencies with `yarn` by executing the following commands:
+
+```
+git clone git@github.com:Machinalabs/remix-nahmii-compiler-plugin.git
+
+yarn
+```
+
+To start the project run:
+```
+yarn start
+```
+
+Once you've started the application, open the [Remix IDE](https://remix.ethereum.org/).
+
+Navigate to the `Plugin Manager` in Remix and click on `Connect to a Local Plugin`. A new window should popup that asks you to fill in details for the local plugin.
+
+Fill in the following details:
+Plugin Name: optimism-compiler
+Display Name: Nahmii Compiler
+Api: compile,getCompilationResult,setCompilerConfig,compileWithParameters,compilationFinished
+Url: http://localhost:8080/
+
+Click `OK` and the plugin should now appear in your Remix IDE. You can now use the plugin like the regular Solidity compiler within Remix.
+
 ## Deploy to Nahmii Testnet using Remix
 
 For this example we will use the following contract
