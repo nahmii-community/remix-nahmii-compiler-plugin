@@ -34,9 +34,9 @@ Once you've started the application, open the [Remix IDE](https://remix.ethereum
 Navigate to the `Plugin Manager` in Remix and click on `Connect to a Local Plugin`. A new window should popup that asks you to fill in details for the local plugin.
 
 Fill in the following details:
-Plugin Name: nahmii-compiler
+Plugin Name: optimism-compiler
 Display Name: Nahmii Compiler
-Api: compile,getCompilationResult
+Api: compile,getCompilationResult,setCompilerConfig,compileWithParameters,compilationFinished
 Url: http://localhost:8080/
 
 Click `OK` and the plugin should now appear in your Remix IDE. You can now use the plugin like the regular Solidity compiler within Remix.
