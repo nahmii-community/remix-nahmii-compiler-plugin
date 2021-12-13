@@ -7,7 +7,7 @@ export class RemixClient extends PluginClient {
 
   constructor() {
     super()
-    this.methods =  ["compileCustomAction"]
+    this.methods = ["compileCustomAction"]
     createClient(this)
   }
 

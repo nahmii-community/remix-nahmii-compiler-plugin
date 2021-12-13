@@ -9,7 +9,7 @@ import { PluginClient } from "@remixproject/plugin"
 import { IRemixApi } from "@remixproject/plugin-api"
 import { EVMVersion, Language } from "./compiler"
 
-export interface OptimismCompilerApi extends Api {
+export interface NahmiiCompilerApi extends Api {
   events: {
     compilationFinished: (
       fileName: string,
