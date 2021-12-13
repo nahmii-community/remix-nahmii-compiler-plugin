@@ -1,16 +1,16 @@
-# Remix Optimism Compiler
+# Remix Nahmii Compiler
 
 <TODO>
 
 ## Install
 
-In the Remix plugin manager activate Optimism Compiler.
+In the Remix plugin manager activate Nahmii Compiler.
 
 <img src="./images/install.png" alt="installing" width="50%"/>
 
-Now you should be able to compile Optimistic compatible smart contracts.
+Now you should be able to compile Nahmii compatible smart contracts.
 
-## Deploy to Optimistic Kovan using Remix
+## Deploy to Nahmii Testnet using Remix
 
 For this example we will use the following contract
 
@@ -35,13 +35,13 @@ contract Greeter {
 }
 ```
 
-We will assume you have funds in Optimistic Kovan. For a detailed guide on how to send funds to Optimistic Kovan follow [this tutorial](https://community.optimism.io/docs/users/gateway.html).
+We will assume you have funds in Nahmii Testnet. 
 
-Now, go to the Optimism compiler and compile the contract.
+Now, go to the Nahmii compiler and compile the contract.
 
-Switch metamask to Optimistic Kovan by going to [https://chainid.link/?network=optimism-kovan](https://chainid.link/?network=optimism-kovan) and click connect.
+Switch metamask to Nahmii Testnet by going to [connect-nahmii-2](https://nahmii-community.github.io/connect-nahmii-2/) and clicking `Add Nahmii Testnet`.
 
-<img src="./images/optimistic-kovan.png" alt="optimistic-kovan" width="50%"/>
+<img src="./images/nahmii-testnet.png" alt="nahmii-testnet" width="50%"/>
 
 Be sure metamask is in the following network:
 
