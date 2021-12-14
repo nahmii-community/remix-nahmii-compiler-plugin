@@ -35,7 +35,7 @@
     "tslint:fix": "tslint --fix -p . -c tslint.json",
     "check-formatting": "prettier --write --list-different './src/**/*.tsx'",
     "prettier": "prettier --write \"src/**/*.{ts,,tsx,js,json}\"",
-    "deploy": "yarn build && surge --project ./build --domain machinalabs-remix-nahmii-compiler-plugin.surge.sh"
+    "deploy": "yarn build && surge --project ./build --domain remix-nahmii-compiler-plugin.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
