@@ -15,7 +15,7 @@ A plugin that allows you to easily compile NVM compatible code within Remix.
 First clone this repository and install dependencies with `yarn` by executing the following commands:
 
 ```
-git clone git@github.com:Machinalabs/remix-nahmii-compiler-plugin.git
+git clone git@github.com:nahmii-community/remix-nahmii-compiler-plugin.git
 
 yarn
 ```
