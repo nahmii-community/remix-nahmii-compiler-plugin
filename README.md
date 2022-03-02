@@ -34,7 +34,7 @@ Once you've started the application, open the [Remix IDE](https://remix.ethereum
 Navigate to the `Plugin Manager` in Remix and click on `Connect to a Local Plugin`. A new window should popup that asks you to fill in details for the local plugin.
 
 Fill in the following details:
-- Plugin Name: optimism-compiler
+- Plugin Name: nahmii-compiler
 - Display Name: Nahmii Compiler
 - Api: compile,getCompilationResult,setCompilerConfig,compileWithParameters,compilationFinished
 - Url: http://localhost:8080/
